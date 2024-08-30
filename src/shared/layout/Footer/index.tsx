@@ -16,7 +16,7 @@ const Index: React.FC = () => {
                 </div>
                 <div className="footer__footing flex items-start justify-between ">
                     <div className="footing__left w-[136px] h-[30px]"><img src="/images/title2.svg" alt="" /></div>
-                    <div className="footing__right flex gap-3 items-center">
+                    <div className="footing__right flex gap-3 items-center cursor-pointer">
                         <span className='w-6 h-6'><img src="/images/mail.svg" alt="" /></span>
                         <span className='font-inter font-medium text-[16px] leading-6 text-[#FFF5F6]'>eventslink@gmail.com</span>
                     </div>
