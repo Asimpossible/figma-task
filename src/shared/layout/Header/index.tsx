@@ -20,7 +20,7 @@ const Index: React.FC = () => {
                 <div className='header__right flex justify-between items-center w-[226px]'>
                     <div className='w-[46px] h-[30px] flex items-start justify-center'>
                         <select className="block w-full bg-inherit pr-0.5 cursor-pointer rounded leading-tight focus:outline-none">
-                            <option value="EN">EN</option>
+                            <option value="EN" className='w-full hover:bg-black cursor-pointer'>EN</option>
                         </select>
                     </div>
                     <div className='w-[120px] h-[30px]'>

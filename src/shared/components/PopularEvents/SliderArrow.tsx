@@ -8,7 +8,7 @@ interface ArrowProps {
 export const SampleNextArrow: React.FC<ArrowProps> = ({ onClick }) => {
     return (
         <div
-            className="absolute top-1/3 -right-12 rounded-full cursor-pointer"
+            className="absolute top-1/4 right-3 rounded-full cursor-pointer"
             onClick={onClick}
         >
             <img src="/images/arrow.svg" alt="" />
