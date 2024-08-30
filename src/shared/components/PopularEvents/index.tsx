@@ -25,8 +25,8 @@ const Index: React.FC = () => {
                 </div>
                 <div className="events w-full h-[391px]">
                     <Slider {...settings} className='w-full h-full !p-0 !m-0 !box-border'>
-                        <div className='!w-[295px] h-[362.77px]'>
-                            <div className="image w-full !h-[220px] relative bg-[url('/images/Art&Wine.svg')]"></div>
+                        <div className='!w-[295px] h-[362.77px] cursor-pointer'>
+                            <div className="image w-full !h-[220px] cursor-pointer bg-[url('/images/Art&Wine.svg')]"></div>
                             <div className="content px-2 flex flex-col gap-1 w-full h-[140px]">
                                 <div className="title  text-textBlack font-poppins font-semibold leading-9 text-2xl ">Art & Wine </div>
                                 <div className="date flex gap-1 items-end justify-start h-6 text-textGrayer font-poppins font-normal text-base">
@@ -45,8 +45,8 @@ const Index: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='!w-[295px] h-[362.77px]'>
-                            <div className="image w-full !h-[220px] relative bg-[url('/images/yoga.svg')]"></div>
+                        <div className='!w-[295px] h-[362.77px] cursor-pointer'>
+                            <div className="image w-full cursor-pointer !h-[220px]  bg-[url('/images/yoga.svg')]"></div>
                             <div className="content px-2 flex flex-col gap-1 w-full h-[140px]">
                                 <div className="title  text-textBlack font-poppins font-semibold leading-9 text-2xl ">Outdoor Yoga Session </div>
                                 <div className="date flex gap-1 items-end justify-start h-6 text-textGrayer font-poppins font-normal text-base">
@@ -65,8 +65,8 @@ const Index: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='!w-[295px] h-[362.77px]'>
-                            <div className="image w-full !h-[220px] relative bg-[url('/images/festival.svg')]"></div>
+                        <div className='!w-[295px] h-[362.77px] cursor-pointer'>
+                            <div className="image w-full cursor-pointer !h-[220px]  bg-[url('/images/festival.svg')]"></div>
                             <div className="content px-2 flex flex-col gap-1 w-full h-[140px]">
                                 <div className="title  text-textBlack font-poppins font-semibold leading-9 text-2xl ">Food Truck Festival </div>
                                 <div className="date flex gap-1 items-end justify-start h-6 text-textGrayer font-poppins font-normal text-base">
@@ -85,8 +85,8 @@ const Index: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='!w-[295px] h-[362.77px]'>
-                            <div className="image w-full !h-[220px] relative bg-[url('/images/dream.svg')]"></div>
+                        <div className='!w-[295px] h-[362.77px] cursor-pointer'>
+                            <div className="image w-full cursor-pointer !h-[220px]  bg-[url('/images/dream.svg')]"></div>
                             <div className="content px-2 flex flex-col gap-1 w-full h-[140px]">
                                 <div className="title  text-textBlack font-poppins font-semibold leading-9 text-2xl ">Dream Fest</div>
                                 <div className="date flex gap-1 items-end justify-start h-6 text-textGrayer font-poppins font-normal text-base">
