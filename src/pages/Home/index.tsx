@@ -1,4 +1,4 @@
-import { Categories, Heading, PopularEvents } from '@/shared/components'
+import { Categories, Heading, PopularEvents, UpcomingEvents } from '@/shared/components'
 import { Header } from '@/shared/layout'
 import React from 'react'
 
@@ -10,6 +10,7 @@ const Index: React.FC = () => {
             <div className="coloured bg-textWhite">
                 <Categories />
                 <PopularEvents />
+                <UpcomingEvents />
             </div>
         </div>
     )
