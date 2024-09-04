@@ -16,7 +16,7 @@ const Index: React.FC = () => {
                     </div>
                     <div className="card cursor-pointer flex flex-col items-center gap-3 w-[295px] h-full">
                         <div className="card__icon w-full h-[295px] rounded-full bg-cover bg-center bg-no-repeat bg-[url('/images/Dubai.svg')]"></div>
-                        <div className="card__title font-poppins font-medium text-textBlack text-2xl leading-[36px]">Paris</div>
+                        <div className="card__title font-poppins font-medium text-textBlack text-2xl leading-[36px]">Dubai</div>
                     </div>
                     <div className="card cursor-pointer flex flex-col items-center gap-3 w-[295px] h-full">
                         <div className="card__icon w-full h-[295px] rounded-full bg-cover bg-center bg-no-repeat bg-[url('/images/Portofino.svg')]"></div>
